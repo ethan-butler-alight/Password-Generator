@@ -23,6 +23,7 @@ stuff = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r'
 # Randomly choose a character
 m = ''.join(random.choice(stuff) for x in xrange(int(q)))
 print s
+print a
 print m
 
 
