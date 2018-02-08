@@ -1,7 +1,3 @@
-# Coded By Kronos
-# Last Updated 6/1/2013
-# Version 2.0
-
 import base64
 import os
 from os import system
@@ -21,7 +17,7 @@ class App(wx.App):
 
 class MainFrame(wx.Frame): # Main Frame
 
-    title = "Kronos Password Generator V2.0"
+    title = "Password Generator V2.0"
 
     def __init__(self):
         wx.Frame.__init__(self, None, 1, self.title, size=(340,200),style=wx.SYSTEM_MENU | wx.CAPTION | wx.CLOSE_BOX)
